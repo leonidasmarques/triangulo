@@ -2,6 +2,8 @@ package entities;
 
 public class Triangulo {
 	
-	double a, b, c;
+	public double a;
+	public double b;
+	public double c;
 
 }
