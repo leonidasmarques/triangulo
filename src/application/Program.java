@@ -25,8 +25,10 @@ public class Program {
 		y.c = sc.nextDouble();
 
 		double areaX = x.area();
-
 		double areaY = y.area();
+		
+		System.out.printf("Area do triangulo X é: %.4f%n " , areaX);
+		System.out.printf("Area do triangulo Y é: %.4f%n " , areaY);
 
 		sc.close();
 
